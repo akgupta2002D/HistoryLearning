@@ -1,0 +1,39 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+/* Making this image the background */
+#indexpage-backgroundimage {
+    /* display: inline-block; */
+    top: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+#indexpage-backgroundimage img{
+    width: 100vw;
+    height: 300px;
+}
+
+/* The text on the index page */
+#indexpage-text{
+    color: white;
+    text-align: center;
+    background-color: #4c210f85;
+    margin: 1% 35%;
+}
+
+/* The link to the next page */
+#lets-learn-div{
+    text-align: center;
+    font-size: 32px;
+    background-color: rgba(0, 0, 0, 0.596);
+    margin: 5% 30%;
+    border-radius: 20px;
+    
+}
+
+#lets-learn-div a{
+    color: white;
+    text-decoration: none;
+}
